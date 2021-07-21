@@ -1,5 +1,6 @@
 <app-top-bar></app-top-bar>
-
+<hello myFriend = "{{ ng }}" (onClick)="upCase($event)"></hello>
+<h3>{{ result }}</h3>
 
 <div class="container">
     <router-outlet></router-outlet>
